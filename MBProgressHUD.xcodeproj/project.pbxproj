@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		427D1DA6237E5ECB003F85D0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 427D1DA4237E5ECB003F85D0 /* MBProgressHUD.h */; };
+		427D1DA6237E5ECB003F85D0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 427D1DA4237E5ECB003F85D0 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		427D1DA7237E5ECB003F85D0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D1DA5237E5ECB003F85D0 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
