@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		427D1D7C237D7756003F85D0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D1D7A237D7756003F85D0 /* MBProgressHUD.m */; };
-		427D1D7D237D7756003F85D0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 427D1D7B237D7756003F85D0 /* MBProgressHUD.h */; };
+		427D1DA6237E5ECB003F85D0 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 427D1DA4237E5ECB003F85D0 /* MBProgressHUD.h */; };
+		427D1DA7237E5ECB003F85D0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 427D1DA5237E5ECB003F85D0 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		427D1D6F237D7686003F85D0 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		427D1D73237D7686003F85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		427D1D7A237D7756003F85D0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		427D1D7B237D7756003F85D0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		427D1D99237E5E8F003F85D0 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		427D1D9D237E5E8F003F85D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427D1DA4237E5ECB003F85D0 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		427D1DA5237E5ECB003F85D0 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		427D1D6C237D7686003F85D0 /* Frameworks */ = {
+		427D1D96237E5E8F003F85D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,28 +29,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		427D1D65237D7686003F85D0 = {
+		427D1D8F237E5E8F003F85D0 = {
 			isa = PBXGroup;
 			children = (
-				427D1D71237D7686003F85D0 /* MBProgressHUD */,
-				427D1D70237D7686003F85D0 /* Products */,
+				427D1D9B237E5E8F003F85D0 /* MBProgressHUD */,
+				427D1D9A237E5E8F003F85D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		427D1D70237D7686003F85D0 /* Products */ = {
+		427D1D9A237E5E8F003F85D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				427D1D6F237D7686003F85D0 /* MBProgressHUD.framework */,
+				427D1D99237E5E8F003F85D0 /* MBProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		427D1D71237D7686003F85D0 /* MBProgressHUD */ = {
+		427D1D9B237E5E8F003F85D0 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				427D1D7B237D7756003F85D0 /* MBProgressHUD.h */,
-				427D1D7A237D7756003F85D0 /* MBProgressHUD.m */,
-				427D1D73237D7686003F85D0 /* Info.plist */,
+				427D1DA4237E5ECB003F85D0 /* MBProgressHUD.h */,
+				427D1DA5237E5ECB003F85D0 /* MBProgressHUD.m */,
+				427D1D9D237E5E8F003F85D0 /* Info.plist */,
 			);
 			path = MBProgressHUD;
 			sourceTree = "<group>";
@@ -58,25 +58,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		427D1D6A237D7686003F85D0 /* Headers */ = {
+		427D1D94237E5E8F003F85D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				427D1D7D237D7756003F85D0 /* MBProgressHUD.h in Headers */,
+				427D1DA6237E5ECB003F85D0 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		427D1D6E237D7686003F85D0 /* MBProgressHUD */ = {
+		427D1D98237E5E8F003F85D0 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 427D1D77237D7686003F85D0 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = 427D1DA1237E5E8F003F85D0 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				427D1D6A237D7686003F85D0 /* Headers */,
-				427D1D6B237D7686003F85D0 /* Sources */,
-				427D1D6C237D7686003F85D0 /* Frameworks */,
-				427D1D6D237D7686003F85D0 /* Resources */,
+				427D1D94237E5E8F003F85D0 /* Headers */,
+				427D1D95237E5E8F003F85D0 /* Sources */,
+				427D1D96237E5E8F003F85D0 /* Frameworks */,
+				427D1D97237E5E8F003F85D0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,24 +84,24 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 427D1D6F237D7686003F85D0 /* MBProgressHUD.framework */;
+			productReference = 427D1D99237E5E8F003F85D0 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		427D1D66237D7686003F85D0 /* Project object */ = {
+		427D1D90237E5E8F003F85D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Joshua J.Y. Lin";
 				TargetAttributes = {
-					427D1D6E237D7686003F85D0 = {
+					427D1D98237E5E8F003F85D0 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
 			};
-			buildConfigurationList = 427D1D69237D7686003F85D0 /* Build configuration list for PBXProject "MBProgressHUD" */;
+			buildConfigurationList = 427D1D93237E5E8F003F85D0 /* Build configuration list for PBXProject "MBProgressHUD" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,18 +109,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 427D1D65237D7686003F85D0;
-			productRefGroup = 427D1D70237D7686003F85D0 /* Products */;
+			mainGroup = 427D1D8F237E5E8F003F85D0;
+			productRefGroup = 427D1D9A237E5E8F003F85D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				427D1D6E237D7686003F85D0 /* MBProgressHUD */,
+				427D1D98237E5E8F003F85D0 /* MBProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		427D1D6D237D7686003F85D0 /* Resources */ = {
+		427D1D97237E5E8F003F85D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,18 +130,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		427D1D6B237D7686003F85D0 /* Sources */ = {
+		427D1D95237E5E8F003F85D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				427D1D7C237D7756003F85D0 /* MBProgressHUD.m in Sources */,
+				427D1DA7237E5ECB003F85D0 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		427D1D75237D7686003F85D0 /* Debug */ = {
+		427D1D9F237E5E8F003F85D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,14 +197,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		427D1D76237D7686003F85D0 /* Release */ = {
+		427D1DA0237E5E8F003F85D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,14 +251,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		427D1D78237D7686003F85D0 /* Debug */ = {
+		427D1DA2237E5E8F003F85D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -280,11 +276,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuajylin.MBProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		427D1D79237D7686003F85D0 /* Release */ = {
+		427D1DA3237E5E8F003F85D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -304,32 +299,31 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.joshuajylin.MBProgressHUD;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		427D1D69237D7686003F85D0 /* Build configuration list for PBXProject "MBProgressHUD" */ = {
+		427D1D93237E5E8F003F85D0 /* Build configuration list for PBXProject "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				427D1D75237D7686003F85D0 /* Debug */,
-				427D1D76237D7686003F85D0 /* Release */,
+				427D1D9F237E5E8F003F85D0 /* Debug */,
+				427D1DA0237E5E8F003F85D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		427D1D77237D7686003F85D0 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		427D1DA1237E5E8F003F85D0 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				427D1D78237D7686003F85D0 /* Debug */,
-				427D1D79237D7686003F85D0 /* Release */,
+				427D1DA2237E5E8F003F85D0 /* Debug */,
+				427D1DA3237E5E8F003F85D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 427D1D66237D7686003F85D0 /* Project object */;
+	rootObject = 427D1D90237E5E8F003F85D0 /* Project object */;
 }
